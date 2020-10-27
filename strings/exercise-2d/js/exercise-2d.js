@@ -4,5 +4,5 @@
  new variable (use substring, toUpperCase, toLowerCase, and the + operator).
  */
 var str = "yOU CHANGE YOUR LIFE BY CHANGING YOUR HEART";
-var upperLowStr = str.substring(0, 1).toUpperCase() + str.substring(1, str.lenght).toLowerCase();
+var upperLowStr = str.substring(0, 1).toUpperCase() + str.substring(1).toLowerCase();
 console.log(upperLowStr);
