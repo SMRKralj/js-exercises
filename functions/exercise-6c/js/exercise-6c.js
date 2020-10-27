@@ -9,7 +9,7 @@ console.log(result);
 
 
 function validateInteger(num) {
-    if (Number.isInteger(num)) {
+    if (num % 1 === 0) {
         alert(true);
         return true;
     } else {
