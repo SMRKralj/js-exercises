@@ -10,7 +10,7 @@ console.log("The result is " + result);
 
 
 function sum(num1, num2) {
-    if (isNaN(num1) || (isNaN(num2))) {
+    if (!(typeof(numOne) === "number") || !(typeof(numTwo) === "number")) {
         alert("One or both parameters have an error");
         return NaN;
     }
@@ -21,7 +21,7 @@ function sum(num1, num2) {
 }
 
 function validateInteger(num) {
-    if (!(Number.isInteger(num))) {
+    if (!(num % 1 === 0)) {
         alert("It's not an integer number")
         return Math.round(num);
     }
