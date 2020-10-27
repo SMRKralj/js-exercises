@@ -10,7 +10,7 @@ console.log("The result is " + result);
 
 
 function sum(numOne, numTwo) {
-    if ((typeof numOne == "number") || (typeof numTwo == "number")) {
+    if (!(typeof numOne == "number ") || !(typeof numTwo == "number ")) {
         alert("One or both parameters have an error");
         return NaN;
     } else {
